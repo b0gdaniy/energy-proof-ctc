@@ -8,7 +8,7 @@
   --green-soft: #dcece2;
   --navy: #19312e;
   --amber: #b47b38;
-  --mono: "DM Mono", monospace;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 * {
   box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: "DM Sans", sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 14px;
 }
 .app-shell {
